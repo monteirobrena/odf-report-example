@@ -1,14 +1,14 @@
-# Odf-reports Example
+# Odf-report Example
 
-This project is an example of using the gem odf-reports. See more at documentation:
+This project is an example of using the gem odf-report. See more at documentation:
 
 http://sandrods.github.io/odf-report/
 
 ## To run
 
-Install gem odf-reports
+Install gem odf-report
 
-    gem install odf-reports
+    gem install odf-report
 
 Update the gems of project
 
