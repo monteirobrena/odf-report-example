@@ -6,27 +6,29 @@ http://sandrods.github.io/odf-report/
 
 ## To run
 
-Install gem odf-report
+Install gem odf-report:
 
     gem install odf-report
 
-Update the gems of project
+Update the gems of project:
 
     bundle
 
-Start the server
+Start the server:
 
     rails s
 
 ## To access
 
-Access the page http://localhost:3000/home/print
+Access the page:
+
+http://localhost:3000/home/print
 
 The request will return one file called template.odt
 
 ## To customize
 
-Open the template.odt at app/reports with OpenOffice and update the file adding new fields inside the brackets
+Open the template.odt at app/reports with OpenOffice and update the file adding new fields inside the brackets:
 
     [new_field]
 
