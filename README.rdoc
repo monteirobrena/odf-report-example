@@ -1,0 +1,37 @@
+# Odf-reports Example
+
+This project is an example of using the gem odf-reports. See more at documentation:
+
+http://sandrods.github.io/odf-report/
+
+## To run
+
+Install gem odf-reports
+
+    gem install odf-reports
+
+Update the gems of project
+
+    bundle
+
+Start the server
+
+    rails s
+
+## To access
+
+Access the page http://localhost:3000/home/print
+
+The request will return one file called template.odt
+
+## To customize
+
+Open the template.odt at app/reports with OpenOffice and update the file adding new fields inside the brackets
+
+    [new_field]
+
+To pass value to the new field, update the method print at controller/home adding the bellow line inside the loop:
+
+    r.add_field :new_value, "Value to insert"
+
+Enjoy ;)
