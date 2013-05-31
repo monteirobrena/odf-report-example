@@ -4,6 +4,10 @@ This project is an example of using the gem odf-report. See more at documentatio
 
 http://sandrods.github.io/odf-report/
 
+## Demo
+
+[See demo on Heroku] http://odf-report-example.herokuapp.com/home/print
+
 ## To run
 
 Install gem odf-report:
@@ -22,7 +26,7 @@ Start the server:
 
 Access the page:
 
-[http://localhost:3000/home/print]
+[http://localhost:3000/home/print] http://localhost:3000/home/print
 
 The request will return one file called template.odt
 
