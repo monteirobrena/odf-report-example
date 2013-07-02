@@ -35,7 +35,7 @@ The request will return one file called template.odt
 
 Open the template.odt at app/reports with OpenOffice and update the file adding new fields inside the brackets:
 
-    [new_field]
+    [new_value]
 
 To pass value to the new field, update the method print at controller/home adding the bellow line inside the loop:
 
